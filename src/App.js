@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+//import logo from './logo.svg';
+//import './App.css';
+import FucntionalComp from './components/FunctionalComp';
+import {ClassComp, ClassComp1} from './components/ClassComp';
+import Click from './components/Click';
+import Counter from './components/Counter';
+import ParentComp from './components/ParentComp';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return (<div><h1>HELLO WORLD</h1>
+
+    <h2>Lesss gooooooo</h2>
+    <FucntionalComp />
+    <ClassComp />
+    <ClassComp1 />
+    <Click />
+    <Counter />
+    <ParentComp />
     </div>
-  );
+    );
 }
 
 export default App;
