@@ -8,15 +8,17 @@ import ParentComp from './components/ParentComp';
 
 
 function App() {
-  return (<div><h1>HELLO WORLD</h1>
+  return (<div><h1>REACT BASICS</h1>
 
-    <h2>Lesss gooooooo</h2>
+    <h2>This is my first basic react app </h2>
+    <p><i>It has no formating , just basic implementation of functions and components in order to understand how they work</i></p>
     <FucntionalComp />
     <ClassComp />
     <ClassComp1 />
     <Click />
     <Counter />
     <ParentComp />
+    <p><b>Signing Of:</b> <i>Syeda Samaha Batool Rizvi</i></p>
     </div>
     );
 }

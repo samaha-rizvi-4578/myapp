@@ -7,7 +7,7 @@ class ParentComp extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            name: "Samaha"
+            name: "USER"
         }
 
 
@@ -15,7 +15,7 @@ class ParentComp extends Component {
     componentDidMount() {
         setInterval(() => {
             this.setState({
-                name: "Samaha"
+                name: "USER"
             });
         }, 3000);
     }
